@@ -1,3 +1,44 @@
+:root{
+  --title: 36px;
+  --subTitle1: 30px;
+  --subTitle2: 26px;
+
+  /* Colors */
+  --purple: #AC58F5;
+  --purple2: #550E93;
+  --purple2Active: #390963;
+  --purpleHover: #8426D6;
+
+  --gray: #6B6B6B;
+}
+
+.classic-button {
+  width: 100%;
+  border-style: none;
+  border-radius: 15px;
+  background-color: var(--purple2);
+  color: white;
+  font-size: var(--subTitle2);
+  font-weight: bold;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.classic-button:active {
+  background-color: var(--purple2Active);
+}
+
+h3 {
+  color: var(--gray);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
