@@ -1,0 +1,65 @@
+.Sidebar {
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: var(--purple);
+    border-radius: 0 20px 20px 0;
+    z-index: 100;
+}
+
+.Sidebar p {
+    font-size: var(--title);
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    width: 100%;
+}
+
+.Sidebar ul {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Sidebar li {
+    width: 90%;
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-size: var(--subTitle2);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.Sidebar li:hover {
+    background-color: var(--purpleHover);
+}
+
+.Sidebar > button{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .Sidebar {
+        width: 100%;
+        height: fit-content;
+        border-radius: 0;
+        padding: 5px 10px 5px 15px;
+    }
+
+    .Sidebar > div {  
+        display: none;
+    }
+}
