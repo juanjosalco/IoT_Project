@@ -1,6 +1,7 @@
 import React from 'react'
 import Sheet from '../Sheet/Sheet'
 import "./Home.css"
+import Lights from "./Views/Lights/Lights"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
             <div className='row'>
                 <h1>Welcome, Username!</h1> {/* User name prop */}
             </div>
+            <Lights/>
         </header>
         <section>
           {/* Carrusel */}
