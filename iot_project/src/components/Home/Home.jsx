@@ -1,4 +1,5 @@
 import React from 'react'
+import Sheet from '../Sheet/Sheet'
 import "./Home.css"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <section>
           {/* Carrusel */}
         </section>
+        {/* Sheet */}
     </div>
   )
 }

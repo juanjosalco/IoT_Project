@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  background-color: #F6F8FA;
+  background-color: var(--bgColor);
 }
 
 @media only screen and (max-width: 600px) {

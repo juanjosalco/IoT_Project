@@ -57,6 +57,7 @@
         height: fit-content;
         border-radius: 0;
         padding: 5px 10px 5px 15px;
+        z-index: 100;
     }
 
     .Sidebar > div {  

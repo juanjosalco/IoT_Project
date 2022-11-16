@@ -1,0 +1,63 @@
+.Sheet {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 150;
+}
+
+.sheet-box {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: var(--bgColor);
+}
+
+.close-button {
+    border-style: none;
+    background: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.close-button > span,
+.close-button > span::after {
+    display: block;
+    position: absolute;
+    width: inherit;
+    margin: 0;
+    height: 5px;
+    border-radius: 15px;
+    background-color: red;
+    /* top: 0; */
+}
+
+.close-button > span {
+    content: ' ';
+    transform: rotate(45deg);
+}
+
+.close-button > span::after {
+    content: ' ';
+    transform: rotate(90deg);
+}
+
+.sheet-box > header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sheet-box > header > h2 {
+    margin-left: 15px;
+}
