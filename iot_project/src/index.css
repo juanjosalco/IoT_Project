@@ -10,6 +10,8 @@
   --purpleHover: #8426D6;
 
   --gray: #6B6B6B;
+
+  --bgColor: #F6F8FA;
 }
 
 .classic-button {
@@ -26,6 +28,10 @@
 
 .classic-button:active {
   background-color: var(--purple2Active);
+}
+
+h2 {
+  font-size: var((--subTitle1));
 }
 
 h3 {
